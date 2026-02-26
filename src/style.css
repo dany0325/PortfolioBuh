@@ -26,6 +26,15 @@ body {
   padding: 0 20px;
 }
 
+a{
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+a:active, a:focus {
+  color: var(--text-primary);
+}
+
 /* Navigation */
 .navbar {
   background-color: var(--bg-card);
