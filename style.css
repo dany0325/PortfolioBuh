@@ -40,6 +40,8 @@ a:active, a:focus {
   background-color: var(--bg-card);
   border-bottom: 1px solid var(--border-color);
   padding: 20px 0;
+  position: sticky;
+  top: 0;
 }
 
 .nav-content {
